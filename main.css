@@ -55,7 +55,7 @@ div.bottom-sheet-card.show {
 /* Animasi muncul dan hilangkan bottom-sheet-card */
 @keyframes bottom-sheet-card-animation-in {
   from {
-    transform: translateY(60vh);
+    transform: translateY(100vh);
   }
   to {
     transform: translateY(0px);
@@ -66,7 +66,7 @@ div.bottom-sheet-card.show {
     transform: translateY(0px);
   }
   to {
-    transform: translateY(60vh);
+    transform: translateY(100vh);
   }
 }
 /* Bebas disesuaikan kontennya */

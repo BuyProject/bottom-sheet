@@ -3,7 +3,7 @@ const showBottomSheetButtons = document.querySelectorAll(
   "button.show-bottom-sheet"
 );
 for (let showBottomSheetButton of showBottomSheetButtons) {
-  let target = showBottomSheetButton.dataset.target;
+  const target = showBottomSheetButton.dataset.target;
   const bottomSheetContainer = document.querySelector(
     `.bottom-sheet-container${target}`
   );
